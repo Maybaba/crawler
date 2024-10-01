@@ -1,6 +1,7 @@
-my_world = "dream"
-period = 12
-dead = True
+# function definition
+def say_hello(): 
+  print("Hello how are you?")
 
-print("Hello World", my_world)
-print("and i dreaming abt this mood for", period ,"years" )
+say_hello()
+say_hello()
+say_hello()
