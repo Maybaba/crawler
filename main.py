@@ -16,7 +16,12 @@ def say_bye():
 
 say_bye()
 
-def tax_calculator(money):
-  print("your october tax is", money * 0.353)
+def tax_calculator(money_placeholer):
+  print("your october tax is", money_placeholer * 0.353)
 
 tax_calculator(300)
+
+def alert(error):
+  print("warning!", error)
+
+alert()
