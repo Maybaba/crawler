@@ -1,24 +1,18 @@
-# 문자열 출력하기
-print("hello world!")
 
-# variable : 변수 계산하기
+# number
 
-# 프로그램이 돌아가는 동안 메모리에 변수의 값이 저장된다. 
-# 데이터에 a b 등의 변수 이름이 붙는다. 
+a =  654
+print (a)
 
-a = 2
-b = 3
-c = a + b
+# string
 
-a = 1
-b = 1
+my_name = "maybaba"
+my_name = 'maybaba!!'
+print (my_name)
 
-c = a + b
-print(c)
+# boolean
 
-# 코드는 순서대로 읽게 된다.
-
-# 변수 이름을 작성할 땐 snake case로 작성한다.
-# 변수 이름 맨 앞에는 숫자가 올 수 없다.
-# 변수 이름에 공백이 올 수 없다. 
+boolean = False # = 0  = off = not True
+boolean = "True" # = String type
+print (boolean)
 
