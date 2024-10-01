@@ -1,18 +1,6 @@
+my_world = "dream"
+period = 12
+dead = True
 
-# number
-
-a =  654
-print (a)
-
-# string
-
-my_name = "maybaba"
-my_name = 'maybaba!!'
-print (my_name)
-
-# boolean
-
-boolean = False # = 0  = off = not True
-boolean = "True" # = String type
-print (boolean)
-
+print("Hello World", my_world)
+print("and i dreaming abt this mood for", period ,"years" )
