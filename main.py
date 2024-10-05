@@ -1,14 +1,14 @@
-winner = 666
+# AND OR
 
-if winner <= 10:
-  print("if ")
-elif winner <= 25:
-  print("elif")
-elif winner == 0:
-  print("elif 2")
-elif winner == 50:
-  print("elif 3")
+age = int(input("How old are you?"))
+
+print(type(age))
+
+print("user answer : ", age)
+
+if age < 18:
+  print("You are not old enough to vote")
+elif age > 17 and age < 21:
+  print("You are in the prime of your life")
 else:
-  print("else the other one")
-
-# when a conditional turns to true, the code will run and killed.
+  print("go vote")
