@@ -10,3 +10,5 @@ elif winner == 50:
   print("elif 3")
 else:
   print("else the other one")
+
+# when a conditional turns to true, the code will run and killed.
