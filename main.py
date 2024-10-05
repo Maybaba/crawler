@@ -1,22 +1,11 @@
-# param이 없을 경우 기본값 설정하기
-def say_hello(user_name="anonymous"):
-  print ("hello", user_name)
+# tax calculator
 
-say_hello("nico")
+def tax_calc(money):
+  return money * 0.35
 
-say_hello()
+def pay_tax(tax):
+  print("thank you for paying", tax)
 
-# 계산기 만들기 
-def plus(a, b):
-  print(a+b)
-def minus(a, b):
-  print(a-b)
-def mul(a, b):
-  print(a*b)
-def div(a,b):
-  print(a/b)
+tax_calc(13000)
+pay_tax(tax_calc(13000))
 
-plus(3,2)
-minus(3,2)
-mul(3,2)
-div(5,3)
