@@ -1,17 +1,24 @@
-# machine that making juice
-def make_juice(fruit):
-  return f"{fruit} + 🥤"
+# conditional statement
+a = 11
+# checking the value is same or not
+if a == 10:
+  print("true")
+else:
+  print("false")
 
-def add_ice(juice):
-  return f"{juice} + 🥶"
+password_correct = False
 
-def add_sugar(iced_juice):
-  return f"{iced_juice} + ✰"
+if password_correct:
+  print("here is your money")
+else:
+  print("sorry, wrong password")
 
-juice = make_juice("🍓")
-cold_juice = add_ice(juice)
-perfecto_juice = add_sugar(cold_juice)
 
-print(perfecto_juice)
+winner = 10
 
-# keword return kills the code after it
+if winner > 10:
+  print(f"{winner} is greater than 10")
+elif winner < 10:
+  print(f"{winner} is less than 10")
+else:
+  print(f'{winner} is 10')
