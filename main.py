@@ -1,27 +1,22 @@
-# user_name 에 함수가 실행될 때마다의 parameter / argument 를 저장한다. 
-def say_hello(user_name, user_age):
-  print("hellow ~",user_name," haw ar you?")
-  print("your age is" , user_age)
+# param이 없을 경우 기본값 설정하기
+def say_hello(user_name="anonymous"):
+  print ("hello", user_name)
 
-#calling function by using function name and argument
-say_hello("user_name_test", 12)
-say_hello("lynn", 23)
-say_hello("lewis", 6)
+say_hello("nico")
 
-print(1, 2, 3,4 ,5 ,6, 7,8 ,8, 9)
+say_hello()
 
-def say_bye():
-  print("bye bye")
+# 계산기 만들기 
+def plus(a, b):
+  print(a+b)
+def minus(a, b):
+  print(a-b)
+def mul(a, b):
+  print(a*b)
+def div(a,b):
+  print(a/b)
 
-
-say_bye()
-
-def tax_calculator(money_placeholer):
-  print("your october tax is", money_placeholer * 0.353)
-
-tax_calculator(300)
-
-def alert(error):
-  print("warning!", error)
-
-alert()
+plus(3,2)
+minus(3,2)
+mul(3,2)
+div(5,3)
