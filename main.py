@@ -1,9 +1,7 @@
-# tax calculator
-# return statement can use return value anywhere
-def tax_calc(money):
-  return money * 0.35
+# insert param into string value
 
-def pay_tax(tax):
-  print("thx for paying", tax)
+name = "may"
+age = 26
+color = "brown"
 
-pay_tax(tax_calc(120))
+print (f"hello i am {name} and i am {age} also i have {color} eyes")
