@@ -1,24 +1,13 @@
-# AND OR
+# and , or 
 
-age = int(input("How old are you?"))
+user_choice = int(input("choose number . . . "))
 
-print(type(age))
+pc_choice = 50
 
-print("user answer : ", age)
+if user_choice == pc_choice:
+  print("you won!")
+elif user_choice < pc_choice:
+  print("higher!")
+elif user_choice > pc_choice:
+  print("lower!")
 
-if age < 18:
-  print("You are not old enough to vote")
-elif age > 17 and age < 21:
-  print("You are in the prime of your life")
-else:
-  print("go vote")
-
-True and True == True
-False and True == False
-True and False == False
-False and False == False
-
-True or True == True
-True or False == True
-False or True == True
-False or False == False
