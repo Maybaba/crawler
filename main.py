@@ -1,13 +1,14 @@
-# and , or 
+from random import randint
 
-user_choice = int(input("choose number . . . "))
+user_choice = int(input("Choose number . . . "))
 
-pc_choice = 50
+pc_choice = randint(1, 50)
 
 if user_choice == pc_choice:
-  print("you won!")
-elif user_choice < pc_choice:
-  print("higher!")
+  print("you won !")
 elif user_choice > pc_choice:
-  print("lower!")
+  print("Higher! Computer chose", pc_choice)
+elif user_choice < pc_choice:
+  print("Lower! Computer chose", pc_choice)
 
+# how to ignore code : use hashtag like this
