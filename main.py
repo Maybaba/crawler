@@ -1,3 +1,11 @@
+
+
+# how to ignore code : use hashtag like this
+
+# or use three quotation marks like this
+
+"""
+
 from random import randint
 
 user_choice = int(input("Choose number . . . "))
@@ -11,4 +19,20 @@ elif user_choice > pc_choice:
 elif user_choice < pc_choice:
   print("Lower! Computer chose", pc_choice)
 
-# how to ignore code : use hashtag like this
+"""
+
+print("hi")
+
+# <while> is same as <if> except that it will keep going until the condition is false
+
+if True:
+  print("Hi i am true : D ")
+
+distance = 0
+
+while distance < 20:
+  print("i am running : ", distance , "km")
+  distance = distance + 1
+
+#this code repeat until the distance is 20
+
