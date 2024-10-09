@@ -1,7 +1,23 @@
-# Tuples are immutable. witch means you can't change the value of a tuple.
+# Dicts data structure
 
-# in other way, Lists are mutable, so you can change the data
+# key value pair
 
-days = ("Mon", "Tue", "Wed")
+player = {
+  'name': 'May',
+  'age': 25,
+  'alive': True,
+  'fav_food': ["🎃", "☕️"]
+}
 
-print(days[0])
+print(player.get('age'))
+print(player.get('fav_food'))
+print(player['fav_food'])
+print(player['fav_food'][0])
+
+player.pop('name')
+print(player)
+player['xp'] = 1500
+print(player)
+player['fav_food'].append("❤︎")
+print(player.get('fav_food'))
+print(player['fav_food'])
