@@ -1,17 +1,7 @@
-days_of_week = [
-  "Mon", "tue", "Wed", "Thur", "Fri", "Sat", "Sun"
-]
+# Tuples are immutable. witch means you can't change the value of a tuple.
 
-# days_of_week.clear()
+# in other way, Lists are mutable, so you can change the data
 
-days_of_week.append("🌲")
+days = ("Mon", "Tue", "Wed")
 
-print("days of week : ",days_of_week)
-
-print(days_of_week.count("Mon"))
-
-days_of_week.remove("Mon")
-
-print("days of week : ",days_of_week)
-
-print(days_of_week[0])
+print(days[0])
