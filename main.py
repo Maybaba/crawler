@@ -1,9 +1,17 @@
-days_of_week = ["Mon", "Tue", "Wed", "Thu", "Fri"]
+days_of_week = [
+  "Mon", "tue", "Wed", "Thur", "Fri", "Sat", "Sun"
+]
 
-name = "may"
-# print method is unbounded function
-# upper method is buonded function : can not use only function
-# startwith method is bounded with string data 'name'
-print(name.startswith("n"))
+# days_of_week.clear()
 
-print(name.replace("a", "🍓"))
+days_of_week.append("🌲")
+
+print("days of week : ",days_of_week)
+
+print(days_of_week.count("Mon"))
+
+days_of_week.remove("Mon")
+
+print("days of week : ",days_of_week)
+
+print(days_of_week[0])
