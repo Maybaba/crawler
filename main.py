@@ -1,17 +1,9 @@
-from random import randint
+days_of_week = ["Mon", "Tue", "Wed", "Thu", "Fri"]
 
-pc_choice = randint(1, 50)
+name = "may"
+# print method is unbounded function
+# upper method is buonded function : can not use only function
+# startwith method is bounded with string data 'name'
+print(name.startswith("n"))
 
-playing = True
-
-while playing:
- user_choice = int(input("Choose number . . .(1~50) "))
- if user_choice == pc_choice:
-  print("you won !")
-  playing = False
- elif user_choice > pc_choice:
-  print("Lower")
- elif user_choice < pc_choice:
-  print("Higher")
-
-
+print(name.replace("a", "🍓"))
